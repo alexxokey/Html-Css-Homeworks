@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Life in SoftUni</title>
+    <style>
+        table {
+            border: 1px solid black;
+        }
+        td {
+            border: 1px solid black;
+            padding: 5px;
+            height: 75px;
+        }
+        .header {
+            text-align: center;
+            font-size: 40px;
+            font-weight: bolder;
+        }
+        .header td {
+            padding: 20px;
+        }
+        .nestedTable td {
+            height: 30px;
+        }
+        .right {
+            text-align: right;
+        }
+        .bot {
+            vertical-align: bottom;
+        }
+        .top {
+            vertical-align: top;
+        }
+        .center {
+            text-align: center;
+        }
+        .beer {
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .nestedTable td{
+            padding: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="header">
+            <td colspan="4">SoftUni LIFE</td>
+        </tr>
+        <tr class="top">
+            <td colspan="2" style="width: 150px">Google</td>
+            <td colspan="2" class="right">GitHub</td>
+        </tr>
+        <tr>
+            <td class="center top">FB</td>
+            <td>GMail</td>
+            <td class="bot center">YouTube</td>
+            <td>2048</td>
+        </tr>
+        <tr>
+            <td class="right bot">Food</td>
+            <td colspan="2" class="bot">Game</td>
+            <td>
+                <table class="nestedTable center">
+                    <tr>
+                        <td>Social Life</td>
+                    </tr>
+                    <tr>
+                        <td>Sleep</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" class="beer right">Beer ></td>
+            <td>WC</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(0,146,62);
+
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 10px;
+    font-size: 22px;
+}
+td {
+    border: 1px solid black;
+
+}
+img {
+    width: 30px;
+    height: 20px;
+}
+thead {
+    font-size: 25px;
+    background-color: rgb(248,199,17);
+    font-weight: bolder;
+}
+img {
+    padding: 2px;
+    position: static;
+    padding-bottom: 0px;
+}
+.white {
+    background: white;
+}
+.grey {
+    background: lightgray;
+}
+a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px;
+}
+.redCircle {
+    width: 210px;
+    height: 210px;
+    border-radius: 150px;
+    background-color: red;
+    box-shadow: 2px 2px 2px black;
+}
+.greenCircle {
+    width: 210px;
+    height: 210px;
+    border-radius: 150px;
+    background-color: green;
+    box-shadow: 2px 2px 2px black;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+

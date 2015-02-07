@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Glyphicons';
+    src: url('../glyphicons-halflings-regular.ttf');
+}
+body {
+    height: 320px;
+    width: 750px;
+    background-image: url('../img/background.png');
+    font-size: 20px;
+}
+div {
+    padding: 20px;
+    padding-bottom: 300px;
+    background-color: rgb(51,51,51);
+}
+header {
+    background-color: rgb(103,153,102);
+    font-family: 'Lobster', Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(215,229,238);
+    font-size: 20px;
+}
+img {
+    width: 20px;
+    height: 20px;
+    color: rgb(103,153,102);
+}
+
+.left {
+    float: left;
+    background-color: rgb(35, 35, 35);
+}
+.left, .right {
+    width:350px;
+    height: 215px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left p, .right p {
+    color: rgb(201,229,238);
+    text-align: center;
+}
+.right {
+    float: right;
+}
+.right form {
+    display: block;
+}
+.right form input {
+    width: 300px;
+    margin: 15px;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    font-size: 15px;
+    color: grey;
+    border-radius: 3px;
+}
+.right form input[type='button'] {
+    color: rgb(201,229,238);
+    background-color: rgb(35, 35, 35);
+    width: 313px;
+    border: 0;
+    padding: 3px;
+    margin-left: 15px;
+}
+.right form input:active{
+    border: 1px solid lightblue;
+}

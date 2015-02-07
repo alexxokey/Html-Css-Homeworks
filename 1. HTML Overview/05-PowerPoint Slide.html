@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>PowerPoint Slide</title>
+
+    <style>
+        body {
+            background-image: url('images/background.jpg');
+            background-size: cover;
+            margin-top: 70px;
+            margin-bottom: 0px;
+            font-family: "Calibri (Body)", sans-serif;
+        }
+        h1 {
+            color:rgb(243,190,96);
+            font-size: 38px;
+            margin: 15px;
+        }
+        img{
+            margin-left: 70%;
+            position: absolute;
+            top: 0px;
+            right: 10px;
+        }
+        ol {
+            list-style-type: square;
+            color: rgb(243,190,96);
+            font-size: 34px;
+        }
+        div {
+            display:inline-block;
+            font-size: 34px;
+        }
+        ul {
+            list-style-type: none;
+            background-color: rgb(32,32,30);
+            opacity: 0.8;
+            padding-left: 0;
+            margin-left: 2%;
+            margin-right: 8%;
+            border: 1px solid white;
+        }
+        li {
+            font-size: 34px;
+            margin: 5px;
+        }
+        ol {
+            margin: 15px;
+        }
+        .white {
+            color:white;
+        }
+        .listItem {
+            color: rgb(237,225,190);
+            font-family: Consolas,sans-serif;
+            font-size: 24px;
+        }
+        .yellow {
+            color: rgb(243,190,96);
+            font-weight: bold;
+            font-family: Consolas,sans-serif;
+        }
+        .lastItem {
+            color: rgb(237,225,190);
+            font-family: Consolas,sans-serif;
+            font-size: 24px;
+            display: block;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading and Paragraphs<img src="images/SoftUni Foundation.png"></h1>
+    <ol>
+        <li><div class="white">Heading Tags: </div><div class="yellow">&lt;h1&gt;</div><div class="white"> - </div><div class="yellow">&lt;h6&gt;</div></li>
+        <ul>
+            <li class="listItem">&lt;h1&gt;Heading 1 &lt;/h1&gt;</li>
+            <li class="listItem">&lt;h2&gt;Sub heading 2&lt;/h2&gt;</li>
+            <li class="listItem">&lt;h3&gt;Sub heading 3&lt;/h3&gt;</li>
+        </ul>
+        <li><div class="white">Paragraph Tags: </div><div class="yellow">&lt;p&gt;</div>
+            <ul>
+                <li class="listItem">&lt;p&gt;This is my first paragraph&lt;/p&gt;</li>
+                <li class="listItem">&lt;p&gt;This is my second paragraph&lt;/p&gt;</li>
+
+            </ul>
+        <li><div class="white">Sections: </div><div class="yellow">&lt;div&gt;</div><div class="white"> and </div><div class="yellow">&lt;span&gt;</div></li>
+        <ul>
+            <li class="lastItem">&lt;div style="background: skyblue;"&gt;</li>
+            <li class="lastItem">This is a div<li/>
+            <li class="lastItem">&lt;/div&gt;</li>
+        </ul>
+    </ol>
+</body>
+</html>
